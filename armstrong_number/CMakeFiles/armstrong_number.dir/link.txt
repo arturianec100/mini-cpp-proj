@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/armstrong_number.dir/main.cpp.o  -o armstrong_number 

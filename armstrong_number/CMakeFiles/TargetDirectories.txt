@@ -1,0 +1,3 @@
+/home/art/Projects/mini-cpp-proj/armstrong_number/CMakeFiles/edit_cache.dir
+/home/art/Projects/mini-cpp-proj/armstrong_number/CMakeFiles/rebuild_cache.dir
+/home/art/Projects/mini-cpp-proj/armstrong_number/CMakeFiles/armstrong_number.dir
