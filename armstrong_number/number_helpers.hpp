@@ -28,7 +28,7 @@ bool is_armstrong_number(number num) {
                 [count](auto n) {
                     return pow(n, count);
                 });
-    return accumulate(begin(digits), end(digits), 0) == num;
+    return accumulate(begin(digits), end(digits), number{0}) == num;
 }
 
 ostream& operator <<(ostream& s, ilist& lst) {
