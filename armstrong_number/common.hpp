@@ -1,18 +1,21 @@
 #pragma once
 
 #include <cstdlib>
+#include <string>
 #include <iostream>
 #include <cstdint>
 #include <cmath>
 #include <numeric>
 #include <vector>
 #include <algorithm>
-#include "range/v3/all.hpp"
+#include <future>
 
 using namespace std;
 using number = uint64_t;
 using mininumber = uint8_t;
-using ilist = vector<number>;
+using numbers = vector<number>;
+/*
 namespace rng = ranges;
 namespace rv = ranges::views;
 namespace ra = ranges::actions;
+*/
