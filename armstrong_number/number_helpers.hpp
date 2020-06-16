@@ -4,7 +4,7 @@
 
 inline bool is_arm(number n) {
     number s = 0;
-    mininumber e = static_cast<mininumber>(log10(n) + 1);
+    auto e = static_cast<uint32_t>(log10l(n) + 1);
     for (auto v = n; v != 0; v /= 10) s += pow(v % 10, e);
     return s == n;
 }
@@ -45,7 +45,6 @@ numbers find_arm(number from, number to, mininumber thread_count) {
     vec_vec<number> chunks;
     for (auto& fut : futures) { chunks.push_back(fut.get()); }
     numbers result = merge_vectors(chunks);
-    sort(begin(result), end(result));
     return result;
 }
 
